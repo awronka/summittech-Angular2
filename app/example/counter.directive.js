@@ -19,7 +19,7 @@ var CounterDirective = (function () {
     CounterDirective = __decorate([
         core_1.Component({
             selector: 'counter',
-            templateUrl: 'app/template.directive.html',
+            templateUrl: 'app/example/template.directive.html',
         }), 
         __metadata('design:paramtypes', [])
     ], CounterDirective);

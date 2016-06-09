@@ -3,7 +3,7 @@ import { CounterDirective } from './counter.directive';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/template.component.html',
+    templateUrl: 'app/example/template.component.html',
     directives: [CounterDirective]
 })
 

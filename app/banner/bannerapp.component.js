@@ -9,19 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var counter_directive_1 = require('./counter.directive');
-var AppComponent = (function () {
-    function AppComponent() {
+var BannerAppComponent = (function () {
+    function BannerAppComponent() {
     }
-    AppComponent = __decorate([
+    BannerAppComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/template.component.html',
-            directives: [counter_directive_1.CounterDirective]
+            selector: 'my-banner',
+            templateUrl: 'app/banner/bannerapp.template.html',
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], BannerAppComponent);
+    return BannerAppComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.BannerAppComponent = BannerAppComponent;
+//# sourceMappingURL=bannerapp.component.js.map

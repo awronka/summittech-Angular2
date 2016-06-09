@@ -1,0 +1,39 @@
+<div class='col-md-10'>
+    <div class="panel panel-primary">
+    <div class="panel-heading">{{tableTitle}}</div>
+    <div class="panel-body">
+        <div *ngIf = "!booksList || booksList.length == 0">
+            <h1><span>No Books Available</span></h1>
+        </div>
+        <div *ngIf = "booksList && booksList.length > 0" class='col-md-12 table-responsive'>
+            <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Cover</th>
+                            <th>Name</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th>Release Date</th>
+                            <th>Publisher</th>
+                            <th>Genere</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let book of booksList'>
+                            <td></td>
+                            <td>{{book.Name}}</td>
+                            <td>{{book.Author}}</td>
+                            <td>{{book.ISBN}}</td>
+                            <td>{{book.releaseDate}}</td>
+                            <td>{{book.Publisher}}</td>
+                            <td>{{book.genere}}</td>
+                            <td>{{book.rating}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        
+    </div>
+    </div>
+</div>

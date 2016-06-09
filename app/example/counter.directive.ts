@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'counter',
-    templateUrl: 'app/template.directive.html',
+    templateUrl: 'app/example/template.directive.html',
 })
 
 export class CounterDirective { 
